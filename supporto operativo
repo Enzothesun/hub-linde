@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUB LINDE – Supporto Operativo</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f7fb;
+      color: #1e293b;
+      padding: 30px;
+    }
+
+    .header {
+      margin-bottom: 40px;
+    }
+
+    .title {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #003b73;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #5b6777;
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 24px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      transition: 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .icon {
+      font-size: 2rem;
+      margin-bottom: 14px;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #003b73;
+    }
+
+    .card-desc {
+      color: #5b6777;
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+
+    .footer {
+      margin-top: 50px;
+      color: #7b8794;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="title">HUB LINDE – Supporto Operativo</div>
+    <div class="subtitle">
+      Strumenti, procedure e supporto operativo per la gestione dei servizi Linde.
+    </div>
+  </div>
+
+  <div class="grid">
+
+    <a class="card" href="#">
+      <div class="icon">🫁</div>
+      <div class="card-title">Richieste VTD</div>
+      <div class="card-desc">
+        Gestione guidata delle richieste di ventiloterapia domiciliare.
+      </div>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">💨</div>
+      <div class="card-title">OTD</div>
+      <div class="card-desc">
+        Procedure e strumenti per ossigenoterapia domiciliare.
+      </div>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">🏥</div>
+      <div class="card-title">Ospedaliero / GT</div>
+      <div class="card-desc">
+        Supporto operativo area ospedaliera, Inomax e Livopan.
+      </div>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">🏭</div>
+      <div class="card-title">Industrial / Gas Italia</div>
+      <div class="card-desc">
+        Gestione operativa ECOVAR, BULK e PGP.
+      </div>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">📚</div>
+      <div class="card-title">Procedure Operative</div>
+      <div class="card-desc">
+        Libreria documentale e istruzioni operative.
+      </div>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    Tool sviluppato da Enzo Motti · Subject Matter Expert Mediacom
+  </div>
+
+</body>
+</html>
