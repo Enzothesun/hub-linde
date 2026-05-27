@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Procedure Operative - HUB LINDE</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f7fb;
+      color:#1e293b;
+      padding:30px;
+    }
+
+    .header{
+      margin-bottom:40px;
+    }
+
+    .back{
+      display:inline-block;
+      margin-bottom:20px;
+      text-decoration:none;
+      color:#0056b3;
+      font-weight:bold;
+    }
+
+    .title{
+      font-size:2rem;
+      color:#003b73;
+      margin-bottom:10px;
+    }
+
+    .subtitle{
+      color:#5b6777;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+
+    .card{
+      background:white;
+      border-radius:18px;
+      padding:24px;
+      text-decoration:none;
+      color:inherit;
+      box-shadow:0 4px 14px rgba(0,0,0,0.08);
+      transition:0.2s ease;
+    }
+
+    .card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .icon{
+      font-size:2rem;
+      margin-bottom:14px;
+    }
+
+    .card-title{
+      font-size:1.15rem;
+      font-weight:bold;
+      margin-bottom:10px;
+      color:#003b73;
+    }
+
+    .card-desc{
+      color:#5b6777;
+      line-height:1.5;
+      font-size:0.95rem;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+
+    <a class="back" href="index.html">
+      ← Torna all'HUB
+    </a>
+
+    <div class="title">
+      Procedure Operative
+    </div>
+
+    <div class="subtitle">
+      Libreria documentale e supporto operativo Linde.
+    </div>
+
+  </div>
+
+  <div class="grid">
+
+    <a class="card" href="Check list problematiche erogazione.pdf" target="_blank">
+
+      <div class="icon">📄</div>
+
+      <div class="card-title">
+        Check list problematiche erogazione
+      </div>
+
+      <div class="card-desc">
+        Guida operativa per gestione autonomia ossigeno, flusso assente, problemi di pressione, rumori e verifiche operative sui contenitori di O₂ liquido.
+      </div>
+
+    </a>
+
+  </div>
+
+</body>
+</html>
